@@ -1,14 +1,12 @@
 {
   "userName": "zmcmackins",
-  "goals":["goalOne":{
+  "goals":[{
               "goal": "Learn stuff",
               "confidence": "High"
-           },
-           "goalTwo":{
+           },{
               "goal": "Succeed in the course",
               "confidence": "High:
-           },
-           "goalThree":{
+           },{
                "goal": "Create a decent webpage",
                "confidence": "Medium"
            }]
