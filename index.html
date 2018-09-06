@@ -2,29 +2,16 @@
 title: zmcmackins
 layout: main
 ---
-<h1><b><i>zmcmackins</i></b></h1>
-<p>
-  This is a simple web page for <a href="https://msucsis.github.io/csc425/">CSC-425</a>.  My goals this semester are:
-  <ul>
-    <li>Learn stuff</li>
-    <li>Succeed in the course</li>
-    <li>Create a decent webpage</li>
-  </ul>
-</p>
-<h1><b>Posts</b></h1>
-<p>
-  <a href="{{site.baseurl}}now.html">Now<a>
-    {%for post in site.posts%}
-    <article>
-    <h2>
-        <a href="{{site.baseurl}}{post.url}}">
-          {{post.title}}
-        </a>
-    </h2>
-      <p>
-        {{post.excerpt}}
-      </p>
-      <p><a href="{{site.baseurl}}{{post.url}}">Continue Reading...</a></p>
-    </article>
-    {%endfor%}
-</p>
+{%for post in site.posts%}
+<article>
+<h2>
+    <a href="{{site.baseurl}}{post.url}}">
+      {{post.title}}
+    </a>
+</h2>
+  <p>
+    {{post.excerpt}}
+  </p>
+  <p><a href="{{site.baseurl}}{{post.url}}">Continue Reading...</a></p>
+</article>
+{%endfor%}
