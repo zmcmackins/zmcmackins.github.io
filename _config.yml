@@ -1,4 +1,3 @@
-baseurl: /jekyll-skeleton
 markdown: kramdown
 kramdown:
   input: GFM
