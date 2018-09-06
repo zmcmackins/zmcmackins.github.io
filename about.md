@@ -3,16 +3,15 @@ layout: main
 title: About
 ---
 
-## pwright4
+## zmcmackins
 
-This is just a page where you can put whatever content you'd like.
+Age: 22
+Gender: Male
+Likes: Video Games and Socializing
+Dislikes: Cursive Writing and Thoughtless Behavior
 
 ## Contact Information
 
-Here you could, for instance, link to your [GitHub](http://www.github.com/pwright4) or 
-[Twitter](http://www.twitter.com/msupwright4) profiles.
-
-## Other Pages
-
-You can also add pages other than an about page by just creating a markdown file in your 
-repository's directory structure where you want the page to appear.
+Email: zmcmackins@murraystate.edu
+Phone#: Ask first
+Facebook: https://www.facebook.com/zach.mcmackins
