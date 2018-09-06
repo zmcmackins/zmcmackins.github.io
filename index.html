@@ -14,9 +14,22 @@
         <li>Create a decent webpage</li>
       </ul>
     </p>
-    <h1><b>Pages</b></h1>
+    <h1><b>Posts</b></h1>
     <p>
       <a href="{{site.baseurl}}now.html">Now<a>
+        {%for post in site.posts%}
+        <article>
+        <h2>
+            <a href="{{site.baseurl}}{post.url}}">
+              {{post.title}}
+            </a>
+        </h2>
+          <p>
+            {{post.excerpt}}
+          </p>
+          <p><a href="{{site.baseurl}}{{post.url}}">Continue Reading...</a></p>
+        </article>
+        {%endfor%}
     </p>
   </body>
 </html>
