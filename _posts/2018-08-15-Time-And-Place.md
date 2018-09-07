@@ -1,7 +1,7 @@
 ---
 title: Time And Place
 layout: main
-style: style.css
+style: ../style.css
 ---
 
 ## Lack interest/motivation
