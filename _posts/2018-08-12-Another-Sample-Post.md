@@ -1,6 +1,6 @@
 ---
 title: Another Post
-layout: post
+layout: main
 ---
 
 This is just another post to make sure that your loop is working as expected.
