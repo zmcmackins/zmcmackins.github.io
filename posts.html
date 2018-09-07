@@ -5,14 +5,8 @@ layout: main
 <h1><b>Posts</b></h1>
 {%for post in site.posts%}
 <article>
-<h2>
-    <a href="{{site.baseurl}}{post.url}}">
-      {{post.title}}
-    </a>
-</h2>
-  <p>
-    {{post.excerpt}}
-  </p>
-  <p><a href="{{site.baseurl}}{{post.url}}">Continue Reading...</a></p>
+<h2><a href="{{site.baseurl}}{post.url}}">{{post.title}}</a></h2>
+<p>{{post.excerpt}}</p>
+<p><a href="{{site.baseurl}}{{post.url}}">Continue Reading...</a></p>
 </article>
 {%endfor%}
