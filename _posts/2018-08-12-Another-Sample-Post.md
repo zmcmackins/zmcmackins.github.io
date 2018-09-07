@@ -3,8 +3,8 @@ title: Another Post
 layout: main
 ---
 
-This is just another post to make sure that your loop is working as expected.
+This is just another test post.
 
-## Another Section
+## Another Test
 
-Just a little more text.
+Just another test.
