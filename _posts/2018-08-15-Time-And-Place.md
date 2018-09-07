@@ -4,7 +4,7 @@ layout: main
 style: style.css
 ---
 
-## Asking a lot for a little
+## Lack interest/motivation
 I am not very interested in making sample pages very long/sparkly and I doubt anyone else is either.
 
 ## Maybe later
